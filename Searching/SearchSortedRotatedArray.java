@@ -7,7 +7,7 @@ public class SearchSortedRotatedArray {
             if(arr[mid]==x){
                 return mid;
             }
-            if(arr[s]<arr[mid]){
+            if(arr[s]<=arr[mid]){
                 if(x>=arr[s] && x<arr[mid]){
                     e=mid-1;
                 }
